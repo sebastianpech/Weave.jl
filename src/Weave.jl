@@ -84,6 +84,7 @@ Weave an input document to output file.
 * `pandoc_options` = String array of options to pass to pandoc for `pandoc2html` and
    `pandoc2pdf` formats e.g. ["--toc", "-N"]
 * `latex_cmd` the command used to make pdf from .tex
+* `escape_unicode` if set to true (default), try to convert unicode characters to respective LaTeX command
 
 **Note:** Run Weave from terminal and not using IJulia, Juno or ESS, they tend to mess with capturing output.
 """
